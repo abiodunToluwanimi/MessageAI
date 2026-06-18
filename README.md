@@ -1,16 +1,36 @@
-# second_draft
+MessageAI 💬🤖
 
-A new Flutter project.
+A modern, elegant Flutter chat application integrated with OpenRouter AI.
 
-## Getting Started
+📱 Features
 
-This project is a starting point for a Flutter application.
+Dual-Mode Dashboard: Instantly switch between traditional Messages and an AI Assistant using Cupertino segmented controls.
 
-A few resources to get you started if this is your first Flutter project:
+Notched Navigation Bar: A modern, curved bottom navigation bar with a centered floating action button (FAB).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Real-Time AI Chat: Powered by the OpenRouter API to stream smart responses directly into your application.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🛠️ Quick Start
+
+1. Install Dependencies
+
+Clone this repository and run the following command in your terminal:
+
+flutter pub get
+
+
+2. Configure your API Key
+
+Create a file at lib/api/api_key.dart and add your OpenRouter key:
+
+const String apiKey = 'YOUR_OPENROUTER_API_KEY';
+
+
+3. Run the App
+
+flutter run
+
+
+🔒 Security Note
+
+To protect your AI credentials and avoid unwanted charges, ensure that lib/api/api_key.dart is added to your .gitignore file so it is never pushed to public GitHub!
